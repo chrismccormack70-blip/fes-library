@@ -46,11 +46,12 @@ a:hover {
 }
 
 .purple {
-  color: #7342d6;
+  color: #1446eb;
 }
 
 .logo {
   width: 160px;
+  filter: grayscale(100%);
 }
 
 ul {
@@ -65,7 +66,7 @@ li {
   margin-left: 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #7342d6;
+  color: #1446eb;
   font-weight: bold;
   padding: 8px;
 }
@@ -75,13 +76,13 @@ li {
 }
 
 .nav__link--primary {
-  border: 2px solid #7342d6;
+  border: 2px solid #1446eb;
   border-radius: 4px;
 }
 
 .nav__link--primary:hover {
   text-decoration: none;
-  background-color: #7342d6;
+  background-color: #1446eb;
   color: white;
 }
 
@@ -89,7 +90,7 @@ li {
   background-color: transparent;
   font-size: 40px;
   border: none;
-  color: #7342d6;
+  color: #1446eb;
   display: none;
 }
 
@@ -152,7 +153,7 @@ LANDING
 */
 
 #landing {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #1446eb1f;
 }
 
 header {
@@ -178,7 +179,7 @@ header {
 
 h1 {
   font-size: 56px;
-  color: #7342d6;
+  color: #1446eb;
   margin-bottom: 24px;
   text-align: center;
 }
@@ -195,10 +196,10 @@ button {
 
 .btn:hover {
   text-decoration: none;
-  outline: 2px solid #7342d6;
+  outline: 2px solid #1446eb;
   border-radius: 4px;
-  background-color: rgba(115, 66, 214, 0.1);
-  color: #7342d6;
+  background-color: #1446eb1f;
+  color: #1446eb;
 }
 
 button:active {
@@ -206,7 +207,7 @@ button:active {
 }
 
 .btn {
-  background-color: #7342d6;
+  background-color: #4063d7;
   color: white;
   padding: 12px 24px;
   font-size: 20px;
@@ -265,10 +266,11 @@ HIGHLIGHTS
 
 .highlight__wrapper {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .highlight {
+  width: calc(100% / 3);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -277,11 +279,11 @@ HIGHLIGHTS
 }
 
 .highlight__img {
-  border: 2px solid;
+  border: 2px solid #1446eb41;
   border-radius: 4px;
   width: 75px;
   height: 75px;
-  color: #7342d6;
+  color: #1446eb;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -308,7 +310,7 @@ FEATURES , LATEST
 
 #features {
   padding-top: 8vw;
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #1446eb1f;
 }
 
 .books {
@@ -380,7 +382,7 @@ FEATURES , LATEST
 
 #explore {
   padding-top: 4vw;
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: #1446eb1f;
 }
 
 .row__column {
@@ -426,15 +428,15 @@ TABLETS
 @media (max-width: 768px) {
   .header__description {
     padding: 0 24px;
-    }
+  }
 
   h1 {
-  font-size: 40px;
+    font-size: 40px;
   }
 
   h2 {
     font-size: 26px;
-    }
+  }
 
   button {
     font-size: 18px;
